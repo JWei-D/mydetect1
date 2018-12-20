@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="mydetec1" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opt\;CMake Files\..\..\..\opt\ros\;CMake Files\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mydetec1">
+         <Option output="/home/jwei/mydetec1/build/mydetec1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 mydetec1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mydetec1/fast">
+         <Option output="/home/jwei/mydetec1/build/mydetec1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 mydetec1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pbox">
+         <Option output="/home/jwei/mydetec1/build/libpbox.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 pbox" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pbox/fast">
+         <Option output="/home/jwei/mydetec1/build/libpbox.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 pbox/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mtcnn">
+         <Option output="/home/jwei/mydetec1/build/libmtcnn.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 mtcnn" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mtcnn/fast">
+         <Option output="/home/jwei/mydetec1/build/libmtcnn.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 mtcnn/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="network">
+         <Option output="/home/jwei/mydetec1/build/libnetwork.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 network" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="network/fast">
+         <Option output="/home/jwei/mydetec1/build/libnetwork.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/jwei/mydetec1/build" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 network/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/jwei/mydetec1/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/jwei/mydetec1/main.cpp">
+         <Option target="mydetec1"/>
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/mtcnn.cpp">
+         <Option target="mtcnn"/>
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/mtcnn.h">
+         <Option target="mtcnn"/>
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/network.cpp">
+         <Option target="network"/>
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/network.h">
+         <Option target="network"/>
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/pBox.cpp">
+         <Option target="pbox"/>
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/pBox.h">
+         <Option target="pbox"/>
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
+      </Unit>
+      <Unit filename="/home/jwei/mydetec1/../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/g++  -fPIC   -shared -Wl,-soname,liblibpbox.so -o liblibpbox.so CMakeFiles/libpbox.dir/pBox.cpp.o 

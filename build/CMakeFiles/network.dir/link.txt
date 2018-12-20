@@ -1,0 +1,1 @@
+/usr/bin/g++  -fPIC   -shared -Wl,-soname,libnetwork.so -o libnetwork.so CMakeFiles/network.dir/network.cpp.o /usr/lib/libblas.so.3 

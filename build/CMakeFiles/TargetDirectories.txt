@@ -1,0 +1,6 @@
+/home/jwei/mydetec1/build/CMakeFiles/rebuild_cache.dir
+/home/jwei/mydetec1/build/CMakeFiles/mydetec1.dir
+/home/jwei/mydetec1/build/CMakeFiles/pbox.dir
+/home/jwei/mydetec1/build/CMakeFiles/edit_cache.dir
+/home/jwei/mydetec1/build/CMakeFiles/mtcnn.dir
+/home/jwei/mydetec1/build/CMakeFiles/network.dir

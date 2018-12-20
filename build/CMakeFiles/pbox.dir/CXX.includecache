@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jwei/mydetec1/pBox.cpp
+pBox.h
+/home/jwei/mydetec1/pBox.h
+
+/home/jwei/mydetec1/pBox.h
+stdlib.h
+-
+iostream
+-
+

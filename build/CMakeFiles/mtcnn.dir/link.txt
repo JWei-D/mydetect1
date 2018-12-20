@@ -1,0 +1,1 @@
+/usr/bin/g++  -fPIC   -shared -Wl,-soname,libmtcnn.so -o libmtcnn.so CMakeFiles/mtcnn.dir/mtcnn.cpp.o /usr/lib/libblas.so.3 

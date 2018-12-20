@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jwei/mydetec1/mtcnn.cpp
+mtcnn.h
+/home/jwei/mydetec1/mtcnn.h
+
+/home/jwei/mydetec1/mtcnn.h
+network.h
+/home/jwei/mydetec1/network.h
+
+/home/jwei/mydetec1/network.h
+opencv2/imgproc/imgproc.hpp
+/home/jwei/mydetec1/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/jwei/mydetec1/opencv2/highgui/highgui.hpp
+algorithm
+-
+stdlib.h
+-
+memory.h
+-
+fstream
+-
+cstring
+-
+cblas.h
+-
+string
+-
+math.h
+-
+pBox.h
+/home/jwei/mydetec1/pBox.h
+
+/home/jwei/mydetec1/pBox.h
+stdlib.h
+-
+iostream
+-
+
